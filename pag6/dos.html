@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+ <script type="text/javascript" src="../Funciones/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="../Funciones/jquery.min.js"></script>
+ <script type="text/javascript" src="../Funciones/jquery-ui.min.js"></script>
+ <script type="text/javascript" src="../Funciones/jquery.ui.touch-punch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../estilos/PlantillaP.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<meta  charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+ 
+</head>
+<body onload="inicio()" onresize="ajustar()" class="noseleccionable">
+	<img src="imagenes/fondo.jpg" id="fondo">
+<img src="imagenes/pizarra.png" id="pizarra">
+<img src="imagenes/personaje.png" id="personaje">
+<div id="consigna">Forma 1000 con unidades (U).</div>
+
+ 
+<img src="imagenes/boton.png" id="verificar"  >
+
+<div id="cuadro">
+<div class="texto">+ &nbsp;  590 U  </div>
+<div class="texto">+ &nbsp; 230 U  </div>
+<div class="texto">+ &nbsp; 725 U  </div>
+<div class="texto">+ &nbsp; 500 U  </div>
+
+
+<div  class="caja" id="caja1"><input class="form-control" type="text" placeholder="" id="txt1" onkeypress="soloNumero(this)" > <span class="glyphicon glyphicon-remove form-control-feedback" id="mal1"> </span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien1"></span>
+</div>
+<div  class="caja" id="caja2" ><input class="form-control" type="text" placeholder="" id="txt2" onkeypress="soloNumero(this)" > <span class="glyphicon glyphicon-remove form-control-feedback" id="mal2"></span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien2"></span>
+</div>
+<div  class="caja"  id="caja3"><input class="form-control" type="text" placeholder="" id="txt3" onkeypress="soloNumero(this)" ><span class="glyphicon glyphicon-remove form-control-feedback" id="mal3"></span> 
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien3"></span>
+</div>
+<div  class="caja "  id="caja4"><input class="form-control" type="text" placeholder="" id="txt4" onkeypress="soloNumero(this)" ><span class="glyphicon glyphicon-remove form-control-feedback" id="mal4" ></span> 
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien4"></span>
+</div>
+ 
+<div class="texto2">= 1000</div>
+<div class="texto2">= 1000</div>
+<div class="texto2">= 1000</div>
+<div class="texto2">= 1000</div>
+
+
+</div>
+
+ <a href="tres.html"><img src="imagenes/flecha.png" id="flecha" ></a> 
+<a href="pag6.html"><img src="imagenes/flechaA.png" id="flechaAtras" ></a>
+
+
+ <script type="text/javascript" src="js/metodos2.js"></script>ç
+<script type="text/javascript">
+  respuestas= new Array();
+respuestas.push(410);
+respuestas.push(770);
+respuestas.push(275);
+respuestas.push(500);
+</script>
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>	
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

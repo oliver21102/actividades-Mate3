@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+ <script type="text/javascript" src="../Funciones/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="../Funciones/jquery.min.js"></script>
+ <script type="text/javascript" src="../Funciones/jquery-ui.min.js"></script>
+ <script type="text/javascript" src="../Funciones/jquery.ui.touch-punch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../estilos/PlantillaP.css">
+ 
+
+<meta  charset="utf-8">
+ <meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+
+
+</head>
+<body onload="inicio();" onresize="ajustar();" class="noseleccionable">
+
+<img src="imagenes/fondo.jpg" id="fondo">
+<div id="consigna">Escribe en literal el orden de llegada de los animales.</div>
+
+<div class="cuadroNumeros">
+<div  class="numeros"> 16º</div>
+<div  class="numeros"> 17º</div>
+<div  class="numeros"> 18º</div>
+<div  class="numeros"> 19º</div>
+<div  class="numeros"> 20º</div>
+<div  class="numeros"> 21º</div>
+ 
+
+</div>
+
+
+<img src="imagenes/meta.png"  id="meta"  >
+
+<img src="imagenes/pasto.png" id="pasto">
+
+<div class="panel">
+<img src="imagenes/decimosexto.png" id="ima1" class="imagenes"> 
+<img src="imagenes/decimoseptimo.png" id="ima2" class="imagenes"> 
+<img src="imagenes/decimooctavo.png" id="ima3" class="imagenes"> 
+<img src="imagenes/decimonoveno.png" id="ima4" class="imagenes"> 
+<img src="imagenes/vigesimo.png" id="ima5" class="imagenes"> 
+<img src="imagenes/vigesimoprimero.png" id="ima6" class="imagenes">   
+</div>
+
+
+
+
+ <img src="imagenes/decimosexto.png" class="imagenC" id="im1">
+ <img src="imagenes/decimoseptimo.png" class="imagenC" id="im2">
+ <img src="imagenes/decimooctavo.png" class="imagenC" id="im3">
+ <img src="imagenes/decimonoveno.png" class="imagenC" id="im4">
+ <img src="imagenes/vigesimo.png" class="imagenC" id="im5">
+
+
+
+<div  class="cajas" id="caja1"> 
+  <input class="form-control" type="text" placeholder="" id="txt1" onkeypress="solotexto(this)"   >   
+<span class="glyphicon glyphicon-remove form-control-feedback" id="mal1"> </span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien1"></span>
+</div>
+
+<div  class="cajas" id="caja2"> <input class="form-control" type="text" placeholder="" id="txt2" onkeypress="solotexto(this)"  > 
+<span class="glyphicon glyphicon-remove form-control-feedback" id="mal2"></span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien2"></span>
+  </div>
+<div  class="cajas" id="caja3"> <input class="form-control" type="text" placeholder="" id="txt3" onkeypress="solotexto(this)">  
+<span class="glyphicon glyphicon-remove form-control-feedback" id="mal3"></span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien3"></span>
+ </div>
+<div  class="cajas" id="caja4"> <input class="form-control" type="text" placeholder="" id="txt4" onkeypress="solotexto(this)"    >  
+<span class="glyphicon glyphicon-remove form-control-feedback" id="mal4"></span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien4"></span>
+ </div>
+<div  class="cajas" id="caja5"> <input class="form-control" type="text" placeholder="" id="txt5" onkeypress="solotexto(this)"  >  
+<span class="glyphicon glyphicon-remove form-control-feedback" id="mal5"></span>
+<span class="glyphicon glyphicon-ok form-control-feedback" id="bien5"></span>
+ </div>
+
+
+
+<a href="quinto.html"><img src="imagenes/flecha.png" id="flecha" ></a> 
+<a href="tres.html"><img src="imagenes/flechaA.png" id="flechaAtras" ></a> 
+<img src="imagenes/verificar.png" id="verificar">
+
+
+<script type="text/javascript" src="js/funciones.js"></script>
+<script type="text/javascript">
+respuestas= null;
+respuestas= new Array();
+ 
+respuestas.push("décimo sexto"); 
+respuestas.push("décimo séptimo");
+respuestas.push("décimo octavo");
+respuestas.push("décimo noveno");
+respuestas.push("vigésimo");
+
+ 
+
+
+
+respuestas2= null;
+respuestas2= new Array();
+respuestas2.push("décimo sexto"); 
+respuestas2.push("décimo séptimo");
+respuestas2.push("décimo octavo");
+respuestas2.push("décimo noveno");
+respuestas2.push("vigésimo");
+ 
+</script>
+
+
+
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>	
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
